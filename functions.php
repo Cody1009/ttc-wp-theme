@@ -17,10 +17,7 @@ array(
 // register_sidebar 終わり
 
 add_theme_support('post-thumbnails');
-function shortcode_tw() {
-  return '<a href = "">@ttctw</a>follow us! ';
-}
-add_shortcode('tw', 'shortcode_tw()');
+
 
 function my_bootstrap_scripts() {
 
